@@ -1,0 +1,121 @@
+/* Mengatur tampilan body */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f9fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container untuk form */
+.form-container, .result-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    margin: 20px;
+}
+
+.form-container:hover, .result-container:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling untuk judul */
+h2, h3 {
+    color: #333;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* Styling untuk input group */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    font-weight: 600;
+    color: #666;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Styling input teks dan angka */
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #c9366c;
+    box-shadow: 0 0 5px rgba(115, 38, 61, 0.5);
+    outline: none;
+}
+
+/* Styling tombol submit */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #c9366c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c9366c;
+}
+
+/* Styling untuk hasil yang ditampilkan */
+.result p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.result p strong {
+    color: #333;
+}
+
+/* Tombol kembali */
+.back-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #c9366c;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #c9366c;
+}
+
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
